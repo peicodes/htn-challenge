@@ -4,5 +4,12 @@ class YourReturnCalculator < ReturnCalculator
   def calculate!
     # Write your code here.
     # You have access to the `snapshots` variable.
+    #
+    # You can access the following properties of a snapshot:
+    # snapshot.date
+    # snapshot.cash_flow
+    # snapshot.market_value
+
+    BigDecimal.new(0)
   end
 end
